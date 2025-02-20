@@ -9,7 +9,7 @@ if ($psISE -and $psISE.CurrentPowerShellTab -and $psISE.CurrentPowerShellTab.Out
 Write-Host "`nEnter mailbox identity (e.g., DISCOON1)" -ForegroundColor Yellow
 $mailboxIdentity = Read-Host 
 
-Write-Host "Enter folder name to search (e.g., '99 Sensitivity Test')" -ForegroundColor Cyan
+Write-Host "Enter folder name to search (e.g., '99 Sensitivity Test' without quotes)" -ForegroundColor Cyan
 
 $folderName = Read-Host
 
