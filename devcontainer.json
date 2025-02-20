@@ -1,0 +1,10 @@
+{
+    "name": "PowerShell Development Container",
+    "image": "mcr.microsoft.com/powershell",
+    "extensions": [
+        "ms-vscode.powershell"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/usr/bin/pwsh"
+    }
+}
