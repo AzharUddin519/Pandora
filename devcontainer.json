@@ -1,6 +1,8 @@
 {
     "name": "PowerShell Development Container",
-    "image": "mcr.microsoft.com/powershell",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "extensions": [
         "ms-vscode.powershell"
     ],
